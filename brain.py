@@ -15,7 +15,8 @@ def get_coordinates(city):
     
     data=response.json()
     if data==[]:
-        return "sorry sir cooordinates of this city is not available , try changing city or check if it is spelled correctly "
+        return "sorry sir cooordinates of this city is not available thus i cant access weather update, try changing city or check if it is spelled correctly"
+        
     return data[0]["lat"],data[0]["lon"]
 
 def weather_status(lat,lon):
@@ -33,6 +34,9 @@ def weather_status(lat,lon):
     return data
 def fetch_weather(city):
     coord=get_coordinates(city)
+    if coord=="sorry sir cooordinates of this city is not available thus i cant access weather update, try changing city or check if it is spelled correctly":
+        return "sorry sir cooordinates of this city is not available thus i cant access weather update, try changing city or check if it is spelled correctly"
+
     lat=coord[0]
     lon=coord[1]
     weather_report=weather_status(lat,lon)
