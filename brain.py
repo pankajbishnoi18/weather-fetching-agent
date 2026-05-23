@@ -31,4 +31,10 @@ def weather_status(lat,lon):
     
     data=response.json()
     return data
+def fetch_weather(city):
+    coord=get_coordinates(city)
+    lat=coord[0]
+    lon=coord[1]
+    weather_report=weather_status(lat,lon)
+    return weather_report["current_weather"]
 
