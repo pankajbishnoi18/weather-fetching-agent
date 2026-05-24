@@ -28,5 +28,44 @@
     },
     {
         "END OF THIS SESSION": "goodbye sir , i  am going offline_____________________________________________________________________"
+    },
+    {
+        "NEW SESSION": "Hello sir, i am NANOKID - i can fetch you geographical details of any city____________________________________________________________________________"
+    },
+    {
+        "user commanded": "1",
+        "bot responded": "enter the city sir: "
+    },
+    {
+        "user asked update on ": "mumbai",
+        "bot responded": [
+            "19.0549990",
+            "72.8692035"
+        ]
+    },
+    {
+        "END OF THIS SESSION": "goodbye sir , i  am going offline_____________________________________________________________________"
+    },
+    {
+        "NEW SESSION": "Hello sir, i am NANOKID - i can fetch you geographical details of any city____________________________________________________________________________"
+    },
+    {
+        "user commanded": "1",
+        "bot responded": "enter the city sir: "
+    },
+    {
+        "user asked update on ": "mumbai",
+        "bot responded": {
+            "time": "2026-05-24T03:45",
+            "interval": 900,
+            "temperature": 32.1,
+            "windspeed": 9.1,
+            "winddirection": 248,
+            "is_day": 1,
+            "weathercode": 1
+        }
+    },
+    {
+        "END OF THIS SESSION": "goodbye sir , i  am going offline_____________________________________________________________________"
     }
 ]
